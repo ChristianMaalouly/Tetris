@@ -2,6 +2,8 @@
 
 Installation :
 
+!!!Remarque!!! Un fichier "Release" avec un executable est fourni pour jouer sans devoir installer.
+
 Ce projet utilise 2 librairies externes :
 wxWidgets 3.2.2.1
 ENet 1.3.17
