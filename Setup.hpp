@@ -22,5 +22,5 @@ const int CENTERING = (COLUMNS - 3) / 2; // value is ((width of board - 3) / 2)
 const int blockSize = 20; // Display size of a block/cell
 const int linesPerLevel = 10; // Number of lines to clear to go up a level
 const bool isHost = true; // Is this the host or a client, for multiplayer
-const string hostAddress = "192.168.56.1";
+const string hostAddress = "127.0.0.1"; // Change to the address of host pc
 const int PORT = 7777;
