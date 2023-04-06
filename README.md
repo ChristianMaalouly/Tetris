@@ -12,7 +12,7 @@ Pour wxWidget :
 
 Téléchargez la bonne version et extrayez les fichiers
 Accédez au dossier build/msw et ouvrez wx_vc16.sln (pour visual studio 2017 ce serait wx_vc15.sln)  
-Construire les configurations 64 bits  
+Construire les configurations 64 bits (debug et release en x64)
 Sur votre PC ajoutez une variable d'environnement / variable système, nom : WXWIN, valeur : répertoire du fichier wxWidgets que vous avez extraits  
 Dans le projet, ouvrez le gestionnaire de propriétés (view -> other windows -> property manager), utilisez-le pour faire "add existing property sheet" et sélectionnez wxwidgets.props dans le répertoire wxWidgets  
 Dans les propriétés du projet, assurez-vous dans l'onglet advanced que character set utilise unicode character set  
