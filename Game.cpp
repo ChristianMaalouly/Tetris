@@ -355,6 +355,7 @@ void TetrisGame::OnQuit(wxCommandEvent& event) {
 }
 
 void TetrisGame::OnMultiplayer(wxCommandEvent& event) {
+    return; // disable because not working yet
     if (enet_initialize() != 0) {
         wxMessageBox(wxT("An error occurred while initializing ENet!"), wxT("Error"));
         return;
